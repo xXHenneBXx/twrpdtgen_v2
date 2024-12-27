@@ -1,4 +1,4 @@
-# twrpdtgen-v2
+# twrpdtgen_v2
 
 [![PyPI version](https://img.shields.io/pypi/v/twrpdtgen)](https://pypi.org/project/twrpdtgen/)
 
@@ -11,13 +11,13 @@ Requires Python 3.8 or greater
 ## Installation
 
 ```sh
-pip3 install twrpdtgen-v2
+pip3 install twrpdtgen_v2
 ```
 
 ## Instructions
 
 ```
-$ python3 -m twrpdtgen-v2 -h
+$ python3 -m twrpdtgen_v2 -h
 Android device tree generator
 Version 0.1.0
 
