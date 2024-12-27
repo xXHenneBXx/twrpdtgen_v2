@@ -1,9 +1,8 @@
 # aospdtgen-v2
 
-[![PyPI version](https://img.shields.io/pypi/v/aospdtgen)](https://pypi.org/project/aospdtgen/)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ec14174bf9840458f27062444b1e375)](https://www.codacy.com/gh/sebaubuntu-python/aospdtgen/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sebaubuntu-python/aospdtgen&amp;utm_campaign=Badge_Grade)
+[![PyPI version](https://img.shields.io/pypi/v/twrpdtgen)](https://pypi.org/project/twrpdtgen/)
 
-Create a [LineageOS](https://github.com/LineageOS)-compatible device tree from an Android stock ROM dump (made with [dumpyara](https://github.com/SebaUbuntu/dumpyara)).
+Create a TWRP-compatible device tree from an Android stock ROM dump (made with [dumpyara](https://github.com/SebaUbuntu/dumpyara)).
 This script supports any Android firmware from a Treble-enabled device (Higher than Android 8.0 and with VNDK enabled, you can check it with [Treble Info](https://play.google.com/store/apps/details?id=tk.hack5.treblecheck) or with `adb shell getprop ro.treble.enabled`).
 For pre-Treble devices please use [twrpdtgen](https://github.com/twrpdtgen/twrpdtgen).
 
@@ -12,13 +11,13 @@ Requires Python 3.8 or greater
 ## Installation
 
 ```sh
-pip3 install aospdtgen
+pip3 install twrpdtgen-v2
 ```
 
 ## Instructions
 
 ```
-$ python3 -m aospdtgen -h
+$ python3 -m twrpdtgen-v2 -h
 Android device tree generator
 Version 0.1.0
 

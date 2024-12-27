@@ -1,7 +1,5 @@
 # BACKUP REPLACE FILE
 
-# BACKUP REPLACE FILE
-
 #
 # Copyright (C) 2022 The LineageOS Project
 #
@@ -13,7 +11,7 @@ from pathlib import Path
 
 from twrpdtgen_v2.proprietary_files.section import register_sections
 
-__version__ = "2.0.1"
+__version__ = "2.0.2"
 
 module_path = Path(__file__).parent
 sections_path = module_path / "proprietary_files" / "sections"
