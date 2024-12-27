@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "aospdtgen-v2"
+name = "twrpdtgen-v2"
 version = "2.0.0"
 description = "Create an Android device tree from a device dump"
 authors = ["Biraru <biraruyt@gmail.com>", "Sebastiano Barezzi <seba@sebaubuntu.dev>"]
 license = "Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/BiraruX/aospdtgen-v2"
+repository = "https://github.com/BiraruX/twrpdtgen-v2"
 
 [tool.poetry.scripts]
-aospdtgen = 'aospdtgen-v2.main:main'
+twrpdtgen-v2 = 'twrpdtgen-v2.main:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
