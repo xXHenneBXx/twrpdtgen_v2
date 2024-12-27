@@ -1,15 +1,17 @@
+# BACKUP REPLACE FILE
+
 #
 # Copyright (C) 2022 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-"""twrpdtgen-v2 templates utils."""
+"""twrpdtgen_v2 templates utils."""
 
 from jinja2 import Environment, FileSystemLoader
 from pathlib import Path
 from typing import Optional
 
-from twrpdtgen-v2 import module_path
+from twrpdtgen_v2 import module_path
 
 jinja_env = Environment(loader=FileSystemLoader(module_path / 'templates'),
                         autoescape=True, trim_blocks=True, lstrip_blocks=True)

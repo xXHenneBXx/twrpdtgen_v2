@@ -1,3 +1,5 @@
+# BACKUP REPLACE FILE
+
 #
 # Copyright (C) 2024 The LineageOS Project
 #
@@ -8,8 +10,8 @@ from pathlib import Path
 from typing import Dict
 from sebaubuntu_libs.libandroid.props import BuildProp
 
-from twrpdtgen-v2.proprietary_files.section import sections
-from twrpdtgen-v2.utils.ignored_props import IGNORED_PROPS
+from twrpdtgen_v2.proprietary_files.section import sections
+from twrpdtgen_v2.utils.ignored_props import IGNORED_PROPS
 
 def dump_partition_build_prop(build_prop: BuildProp, destination_file_path: Path):
 	"""Filter, order and format the build properties and write to file."""

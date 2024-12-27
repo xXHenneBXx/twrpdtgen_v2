@@ -1,3 +1,5 @@
+# BACKUP REPLACE FILE
+
 #
 # Copyright (C) 2022 The LineageOS Project
 #
@@ -17,7 +19,7 @@ from sebaubuntu_libs.libreorder import strcoll_files_key
 from sebaubuntu_libs.libstring import removesuffix
 from typing import Dict, List, Type
 
-from twrpdtgen-v2.proprietary_files.elf import get_shared_libs
+from twrpdtgen_v2.proprietary_files.elf import get_shared_libs
 
 class Section:
 	"""Class representing a proprietary files list section."""
@@ -202,7 +204,7 @@ def register_sections(sections_path: Path):
 	"""Import all the sections and let them execute register_section()."""
 	for section_name in [name for _, name, _ in iter_modules([str(sections_path)])]:
 		try:
-			import_module(f'twrpdtgen-v2.proprietary_files.sections.{section_name}')
+			import_module(f'twrpdtgen_v2.proprietary_files.sections.{section_name}')
 		except Exception as e:
 			LOGE(f"Error importing section {section_name}:\n"
 			     f"{format_exception(e)}")

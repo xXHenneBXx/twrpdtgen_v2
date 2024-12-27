@@ -1,3 +1,5 @@
+# BACKUP REPLACE FILE
+
 #
 # Copyright (C) 2024 The LineageOS Project
 #
@@ -8,7 +10,7 @@ from base64 import b64decode
 from typing import List, Set
 from requests import get
 
-from twrpdtgen-v2.proprietary_files.ignore import IGNORE_SHARED_LIBS
+from twrpdtgen_v2.proprietary_files.ignore import IGNORE_SHARED_LIBS
 
 ARCHS = [
 	"arm",

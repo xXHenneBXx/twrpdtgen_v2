@@ -1,3 +1,7 @@
+# BACKUP REPLACE FILE
+
+# BACKUP REPLACE FILE
+
 #
 # Copyright (C) 2022 The LineageOS Project
 #
@@ -17,10 +21,10 @@ from sebaubuntu_libs.libreorder import strcoll_files_key
 from shutil import rmtree
 from stat import S_IRWXU, S_IRGRP, S_IROTH
 
-from twrpdtgen-v2.proprietary_files.proprietary_files_list import ProprietaryFilesList
-from twrpdtgen-v2.templates import render_template
-from twrpdtgen-v2.utils.boot_configuration import BootConfiguration
-from twrpdtgen-v2.utils.format_props import dump_partition_build_prop
+from twrpdtgen_v2.proprietary_files.proprietary_files_list import ProprietaryFilesList
+from twrpdtgen_v2.templates import render_template
+from twrpdtgen_v2.utils.boot_configuration import BootConfiguration
+from twrpdtgen_v2.utils.format_props import dump_partition_build_prop
 
 class DeviceTree:
 	"""Class representing an Android device tree."""

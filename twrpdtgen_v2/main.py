@@ -1,3 +1,7 @@
+# BACKUP REPLACE FILE
+
+# BACKUP REPLACE FILE
+
 #
 # Copyright (C) 2022 The LineageOS Project
 #
@@ -9,8 +13,8 @@ from pathlib import Path
 from sebaubuntu_libs.liblocale import setup_locale
 from sebaubuntu_libs.liblogging import setup_logging
 
-from twrpdtgen-v2 import __version__ as version, current_path
-from twrpdtgen-v2.device_tree import DeviceTree
+from twrpdtgen_v2 import __version__ as version, current_path
+from twrpdtgen_v2.device_tree import DeviceTree
 
 def main():
 	setup_logging()
@@ -18,7 +22,7 @@ def main():
 	print(f"TWRP device tree generator\n"
 	      f"Version {version}\n")
 
-	parser = ArgumentParser(prog='python3 -m twrpdtgen-v2')
+	parser = ArgumentParser(prog='python3 -m twrpdtgen_v2')
 	parser.add_argument("dump_path", type=Path,
 	                    help="path to an Android dump made with dumpyara")
 	parser.add_argument("-o", "--output", type=Path, default=current_path / "output",
