@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "twrpdtgen-v2"
-version = "2.0.3"
+version = "2.0.4"
 description = "Create an Android device tree from a device dump"
 authors = ["Biraru <biraruyt@gmail.com>", "Sebastiano Barezzi <seba@sebaubuntu.dev>"]
 license = "Apache-2.0"
