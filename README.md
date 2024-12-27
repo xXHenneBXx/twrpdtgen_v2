@@ -1,4 +1,4 @@
-# aospdtgen
+# aospdtgen-v2
 
 [![PyPI version](https://img.shields.io/pypi/v/aospdtgen)](https://pypi.org/project/aospdtgen/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/0ec14174bf9840458f27062444b1e375)](https://www.codacy.com/gh/sebaubuntu-python/aospdtgen/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sebaubuntu-python/aospdtgen&amp;utm_campaign=Badge_Grade)
