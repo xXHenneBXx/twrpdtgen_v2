@@ -22,7 +22,7 @@ def main():
 	print(f"TWRP device tree generator\n"
 	      f"Version {version}\n")
 
-	parser = ArgumentParser(prog='python3 -m twrpdtgen_v2')
+	parser = ArgumentParser(prog='python3 -m twrpdtgen-v2')
 	parser.add_argument("dump_path", type=Path,
 	                    help="path to an Android dump made with dumpyara")
 	parser.add_argument("-o", "--output", type=Path, default=current_path / "output",
