@@ -8,7 +8,7 @@ readme = "README.md"
 repository = "https://github.com/BiraruX/twrpdtgen-v2"
 
 [tool.poetry.scripts]
-twrpdtgen-v2 = 'twrpdtgen-v2.main:main'
+twrpdtgen-v2 = 'twrpdtgen_v2.main:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
