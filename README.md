@@ -1,4 +1,4 @@
-# aospdtgen-v2
+# twrpdtgen-v2
 
 [![PyPI version](https://img.shields.io/pypi/v/twrpdtgen)](https://pypi.org/project/twrpdtgen/)
 
