@@ -11,7 +11,7 @@ from pathlib import Path
 
 from twrpdtgen_v2.proprietary_files.section import register_sections
 
-__version__ = "2.0.2"
+__version__ = "2.0.3"
 
 module_path = Path(__file__).parent
 sections_path = module_path / "proprietary_files" / "sections"
