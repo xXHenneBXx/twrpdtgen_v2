@@ -1,10 +1,7 @@
-# BACKUP REPLACE FILE
-
-# BACKUP REPLACE FILE
-
 #!/usr/bin/python3
-#
-# Copyright (C) 2022 The LineageOS Project
+# Copyright (C) 2025 The LineageOS Project
+# Copyright (C) 2025 The xXHenneBXx
+# Copyright (C) 2025 The SebaUbuntu
 #
 # SPDX-License-Identifier: Apache-2.0
 #
