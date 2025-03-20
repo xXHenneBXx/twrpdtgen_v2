@@ -11,7 +11,7 @@ from base64 import b64decode
 from typing import List, Set
 from requests import get
 
-from twrpdtgen_v2.proprietary_files.ignore import IGNORE_SHARED_LIBS
+from twrpdtgen_v3.proprietary_files.ignore import IGNORE_SHARED_LIBS
 
 ARCHS = [
 	"arm",
