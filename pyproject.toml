@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "twrpdtgen_v2"
+name = "twrpdtgen_v3"
 version = "3.1.0"
 description = "Create an Android device tree from a Firmware dump using dumpyara"
 authors = ["Biraru <biraruyt@gmail.com>", "Sebastiano Barezzi <seba@sebaubuntu.dev>"]
