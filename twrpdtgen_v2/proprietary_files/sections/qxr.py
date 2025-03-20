@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-from twrpdtgen_v2.proprietary_files.section import Section, register_section
+from twrpdtgen_v3.proprietary_files.section import Section, register_section
 
 class QxrSection(Section):
 	name = "QXR"
