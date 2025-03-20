@@ -11,8 +11,8 @@ from sebaubuntu_libs.libandroid.partitions.partition import AndroidPartition
 from sebaubuntu_libs.libandroid.partitions.partition_model import TREBLE
 from typing import List, Optional
 
-from twrpdtgen_v2.proprietary_files.ignore import is_blob_allowed
-from twrpdtgen_v2.proprietary_files.section import Section, sections
+from twrpdtgen_v3.proprietary_files.ignore import is_blob_allowed
+from twrpdtgen_v3.proprietary_files.section import Section, sections
 
 class ProprietaryFilesList:
 	"""Class representing a proprietary files list."""
