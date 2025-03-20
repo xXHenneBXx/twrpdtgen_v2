@@ -5,10 +5,10 @@ description = "Create an Android device tree from a Firmware dump using dumpyara
 authors = ["Biraru <biraruyt@gmail.com>", "Sebastiano Barezzi <seba@sebaubuntu.dev>"]
 license = "Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/xXHenneBXx/twrpdtgen_v2"
+repository = "https://github.com/xXHenneBXx/twrpdtgen_v3"
 
 [tool.poetry.scripts]
-twrpdtgen_v2 = 'twrpdtgen_v2.main:main'
+twrpdtgen_v3 = 'twrpdtgen_v3.main:main'
 
 [tool.poetry.dependencies]
 python = "^3.8"
