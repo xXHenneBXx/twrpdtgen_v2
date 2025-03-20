@@ -19,7 +19,7 @@ pip3 install twrpdtgen_v2
 ```
 $ python3 -m twrpdtgen_v2 -h
 Android device tree generator
-Version 0.1.0
+Version 3.1.0
 
 usage: python3 -m aospdtgen [-h] [-o OUTPUT] dump_path
 
